@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Login</title>
+    <style>
+        body {
+            background-color: #e0f7fa;
+        }
+
+        .card {
+            margin-left: 25%;
+            margin-right: 25%;
+            text-align: left;
+        }
+
+        .btn-primary {
+            background-color: #4caf50;
+            border-color: #4caf50;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,6 +38,7 @@
                     <h1 class="text-center">Login</h1>
                     <form method="POST" action="">
                         <div class="mb-3">
+
                             <label for="email">Alamat Email:</label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="Alamat email">
                         </div>
@@ -24,7 +46,9 @@
                             <label for="password">Password:</label>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Pasword">
                         </div>
-                        <button type="submit" class="btn btn-primary">Login</button>
+                        <center>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </center>
                     </form>
                 </div>
         </center>

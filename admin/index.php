@@ -14,6 +14,27 @@ if (!isset($_SESSION['user_id'])) {
     <title>Admin</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
+<style>
+    body {
+        background-color: #fff;
+    }
+
+    .card {
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: left;
+    }
+
+    .btn-primary {
+        background-color: #4caf50;
+        border-color: #4caf50;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
 
 <body>
 
@@ -24,8 +45,13 @@ if (!isset($_SESSION['user_id'])) {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="home.php">beranda <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php">Item List <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="category.php">Category</a>
